@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title id="options-page-title">谷歌访问助手设置</title>
+    <script src="options.js"></script>
+    <style type="text/css">
+        * {
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+        }
+        body {
+            background-color: #f1f2f7;
+            font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+            padding: 0px !important;
+            margin: 0px !important;
+            font-size: 14px;
+            text-rendering: optimizeLegibility;
+            -webkit-font-smoothing: antialiased;
+        }
+        #content {
+            background-color: #fff;
+            margin: 100px auto 0;
+            width: 600px;
+            border-radius: 5px;
+        }
+        #content>h1{
+            margin: 0;
+            padding: 20px 15px;
+            text-align: center;
+            background: #41cac0;
+            border-radius: 5px 5px 0 0;
+            -webkit-border-radius: 5px 5px 0 0;
+            color: #fff;
+            font-size: 18px;
+            text-transform: uppercase;
+            font-weight: 300;
+            font-family: 'Open Sans', sans-serif;
+        }
+        #content>h1>span{
+            font-weight: 700;
+        }
+        #content-wrap{
+            padding: 20px 10px;
+        }
+        .form-horizontal .control-label {
+            padding-top: 7px;
+            margin-bottom: 0;
+            text-align: right;
+        }
+        .col-sm-2 {
+            width: 16.66666667%;
+            float: left;
+        }
+        .col-sm-offset {
+            margin-left: 16.66666667%;
+        }
+        .col-sm-10 {
+            width: 83.33333333%;
+        }
+        .col-sm-10,.col-sm-2{
+            float: left;
+            position: relative;
+            min-height: 1px;
+            padding-right: 15px;
+            padding-left: 15px;
+        }
+        label {
+            display: inline-block;
+            max-width: 100%;
+            margin-bottom: 5px;
+            font-weight: 700;
+        }
+        .form-group:before,.form-group:after,.form-horizontal:before,.form-horizontal:after{
+            display: table;
+            content: " ";
+        }
+        .form-group:after,.form-horizontal:after{
+            clear: both;
+        }
+        .form-horizontal .checkbox{
+            padding-top: 7px;
+            margin-top: 0;
+            margin-bottom: 0;
+            position: relative;
+            display: block;
+        }
+        .tips{
+            display: block;
+            color: #737373;
+            margin: 5px 21px 10px;
+        }
+    </style>
+</head>
+<body>
+<div id="content">
+    <h1>谷歌访问助手<span>设置选项</span></h1>
+
+    <div id="content-wrap" class="form-horizontal">
+        <div class="form-group">
+            <p class="tips">如果已经设置浏览器主页后仍然无效，可以启用此选项自动打开主页，选择喜欢的导航</p>
+            <label class="col-sm-2 control-label">
+                主页设置:
+            </label>
+            <div class="col-sm-10">
+                <div class="checkbox">
+                    <label>
+                        <input id="auto-open-homepage" type="checkbox"> 自动打开主页
+                    </label>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="choose-homepage" class="form-group">
+            <div class="col-sm-offset col-sm-10">
+
+                <div>
+                    <label>选择下面其中一个网址为主页</label>
+                </div>
+
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="homepage" class="homepage" value="http://123.hao245.com">
+                        http://123.hao245.com
+                    </label>
+                </div>
+
+                <div class="radio">
+                    <label>
+                        <input type="radio" name="homepage" class="homepage" value="http://360.hao245.com">
+                        http://360.hao245.com
+                    </label>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+</div> <!-- end of content div -->
+
+<div class="footer"><a id="footer-homepage" href="http://translate.google.com/"></a></div>
+
+</body>
+</html>
