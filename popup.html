@@ -1,4 +1,4 @@
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html>
     <head>
         <meta charset="UTF-8"/>
         <title>谷歌访问助手</title>
@@ -27,12 +27,13 @@
             .header .logo{
                 float:left;
                 margin-bottom: 20px;
+				 margin-left: 5px;
             }
 
             .header .logo-content {
                 float:left;
                 margin-left: 10px;
-                padding-top: 5px;
+                padding-top: 8px;
             }
 
             .header .title{
@@ -67,13 +68,6 @@
                 display: block;
                 padding-bottom: 5px;
             }
-            #settings:after {
-                display: inline-block;
-                content: " ";
-                width: 100%;
-                height: 100%;
-                background: no-repeat url("/img/settings.png") 4px 4px;
-            }
             .popup_copyright{
                 text-align: center;
             }
@@ -102,35 +96,22 @@
             <div class="body">
                 <div id="developer">
                     <div class="name">
-                        <span>免费访问：<a target="_blank" href="https://www.google.com.hk">谷歌搜索</a>，<a target="_blank" href="https://mail.google.com/mail/">Gmail邮箱</a>，<a target="_blank" href="https://chrome.google.com/webstore/category/extensions?hl=zh-CN">Chrome商店</a>...</span>
+                        <span>谷歌：<a target="_blank" href="https://www.google.com.hk">谷歌搜索</a>&nbsp;&nbsp;&nbsp;<a target="_blank" href="https://chrome.google.com/webstore/category/extensions?hl=zh-CN">谷歌商店</a></span>
                     </div>
                 </div>
                 <div style="margin-bottom: 15px;">
-                    <span>应急操作：<a id="refreshP" href="#">刷新</a>&nbsp;&nbsp;&nbsp;<a id="restartP" href="#">重启</a>&nbsp;&nbsp;&nbsp;<a id="stopP" href="#">暂停</a><a id="startP" href="#">启动</a></span>
                 </div>
                 <div id="onStatus" style="display: none">
-                </div>
-                <div>
-                    <span>如果还不能访问，可以试试刷新或者重启</span><br>
-                    <span>如果要使用其他代理而不冲突，可以点击暂停</span>
                 </div>
                 <div id="offStatus" style="display: none">
                     <span id="tips"></span>
                 </div>
-
-                <span>
-                    <e href="" id="openMainWebsite" data-i18n-content="popup_switchyWebPage">交流QQ群：176080917</e>
-                </span>
-                <br/>
-                <br/>
             </div>
             <div class="footer">
                 <div class="popup_copyright">
-                    &copy; 2018 <a target="_blank" href="http://www.ggfwzs.com/">谷歌访问助手</a>
+                    &copy; 2018  晓东
                 </div>
-                <a id="settings" href="#"></a>
             </div>
         </div>
-        <script src="popup.js"></script>
     </body>
 </html>
