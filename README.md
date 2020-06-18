@@ -1,5 +1,5 @@
 # google-access-helper
-<p align="center"><img width="15%" src="./google-access-helper-2.3.0/icons/icon-128.png" /></p>
+<p align="center"><img width="15%" src="https://cdn.nlark.com/yuque/0/2020/png/604921/1592490613008-8edc53b6-ad47-4e3c-bd1f-8b0eadbce6cd.png?x-oss-process=image%2Fresize%2Cw_32" /></p>
 <h1 align="center">谷歌访问助手</h1>
 
 **本软件已破解，可永久免费使用！**
