@@ -12,10 +12,14 @@
 2. 解压后目录中可以的文件有
     + `google-access-helper-2.3.0.crx`文件
     + `google-access-helper-2.3.0`目录
+```
+├── google-access-helper-2.3.0
+├── google-access-helper-2.3.0.crx
+├── README.md
+```
 3. 打开Chrome扩展程序管理器 `chrome://extensions`
 4. 勾选`开发者模式`
 5. 点击`加载已解压的扩展程序`，选择`步骤2`所提到的文件拖进扩展管理器即可
 
 ## 破解说明
-
 - 直接对js文件修改删除保留翻墙功能，本破解版已精简。
