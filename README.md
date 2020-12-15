@@ -8,7 +8,7 @@
 
 由于新版本Chrome已禁止安装第三方应用，且本破解版无法上传至[Chrome网上应用店](https://chrome.google.com/webstore)，因此只能通过以下方法在开发者模式下运行：
 
-1. 克隆仓库: [https://codeload.github.com/KimGuBa/google-access-helper](点击下载) 下载完文件后后解压
+1. 克隆仓库: [点击下载](https://codeload.github.com/KimGuBa/google-access-helper/zip/master) 下载完文件后后解压
 2. 解压后根目录下可用的文件
 ```
 ├── google-access-helper-2.3.0
