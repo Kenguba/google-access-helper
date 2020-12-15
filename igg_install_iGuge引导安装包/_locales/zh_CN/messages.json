@@ -1,0 +1,7 @@
+{
+"name": {"message":"iGG安装器"},
+"shortname": {"message":"iGuge"},
+"description": {"message":"iGG 安装程序,安装完成后请卸载。"},
+"error_code": {"message":"错误"},
+"error_network": {"message":"无法连接到我们的数据中心."}
+}
