@@ -1,0 +1,7 @@
+{
+"name": {"message":"iGuge install"},
+"shortname": {"message":"iGuge"},
+"description": {"message":"if you installed igg, pls uninstall this app."},
+"error_code": {"message":"Error"},
+"error_network": {"message":"We Can't Connect Out Cloud Server"}
+}

@@ -1,0 +1,24 @@
+{
+	"web_accessible_resources": ["img/128ico.png"],
+	"minimum_chrome_version": "33.0.0",
+	"author": "mzkeapp@gmail.com",
+	"name": "__MSG_name__",
+	"short_name": "__MSG_shortname__",
+	"default_locale": "zh_CN",
+	"icons": {
+		"128": "img/128.png",
+		"48": "img/48.png",
+		"16": "img/16.png"
+	},
+	"manifest_version": 2,
+	"homepage_url": "https://iguge.app",
+	"version": "1.0.0",
+	"permissions": ["notifications","storage", "alarms", "management", "webRequest", "webRequestBlocking", "tabs", "proxy", "<all_urls>"],
+	"browser_action": {
+		"default_popup": "pop.html",
+		"default_title": "__MSG_name__",
+		"default_icon": "img/16.png"
+	},
+	"content_security_policy" : "script-src 'self' 'unsafe-eval'; object-src 'self'",
+	"description": "__MSG_description__"
+}
